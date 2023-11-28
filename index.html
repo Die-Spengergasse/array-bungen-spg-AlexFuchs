@@ -1,5 +1,6 @@
 <script>
     // Array erstellen
+        console.log("Arrays Erstellen:");
         MeinArray =[0,1,2,3,4];
         console.log(MeinArray);
 
@@ -7,25 +8,38 @@
         console.log(DeinArray);
 
     // push
+        console.log("Array push");
         MeinArray.push(6);
-        console.log(MeinArray)
+        console.log(MeinArray);
     
     // shift & unshift
+        console.log("Array shift");
+        MeinArray.shift();
+        console.log(MeinArray);
 
+        console.log("Array unshift");
+        MeinArray.unshift(12);
+        console.log(MeinArray);
     // indexof
+        console.log("Array indexOf")
+        console.log(DeinArray.indexOf(3));
 
     // pop
-
+        console.log("Array pop");
+        MeinArray.pop();
+        console.log(MeinArray);
     // includes
-
+        console.log("Array includes")
+        console.log(MeinArray.includes(3));
     // slice
+        console.log("Array slice");
         DeinArray.slice(4)
         console.log(DeinArray)
 
     // splice
-
-    // of & in 
-
+        console.log("Array splice")
+        DeinArray.splice(2,0,"eingefügt","eingefüght2")
+        console.log(DeinArray);        
 </script>
 
 
